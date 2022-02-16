@@ -1,4 +1,10 @@
 body {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+}
+header, footer {
+    color: aliceblue;
+    background-color: #2C1E40;
 }

@@ -1,0 +1,26 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+/* Sets page font style and BG colour */
+body {
+    background-color: #aad4cf;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    padding: 6rem;
+}

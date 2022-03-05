@@ -1,11 +1,7 @@
 html{
     box-sizing: border-box;
   }
-  *,
-  *:before,
-  *:after{
-    box-sizing: inherit;
-  }
+
 /* Sets page font style and BG colour */
 body {
     background-color: #aad4cf;
@@ -21,6 +17,22 @@ header {
 
 header h1 {
     color: white;
-    margin: 0;
-    padding: 6rem;
+    padding: 6rem;  
+}
+/* navigation menu display */
+nav ul{
+  padding-left: 0%;
+}
+
+nav li{
+  display: inline-block;
+  width: 33,3%;
+  border-right-color: black;
+}
+
+/* Star image float */
+img {
+  width: 250px;
+  padding: 0 20px 20px 20px;
+  float:left;
 }

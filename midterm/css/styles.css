@@ -102,9 +102,11 @@ textarea {
 }
 
 button {
+  display: block;
   background-color: #d7f5f1;;
   color: black;
   border: 2px solid black;
+  margin-top: 10px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;

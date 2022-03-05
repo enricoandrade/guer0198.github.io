@@ -1,10 +1,11 @@
 html{
     box-sizing: border-box;
+    background-color: #aad4cf;
   }
 
 /* Sets page font style and BG colour */
 body {
-    background-color: #aad4cf;
+    background-color: #d7f5f1;
     margin-left: 100px;
     margin-right: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,19 +21,32 @@ header h1 {
     left: 380px;
 }
 
-nav, section, div{
-  background-color: #d7f5f1;
+section, div{
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
 /* navigation menu display */
-nav ul{
+nav {
+  width: 100%;
   padding-left: 0%;
+  overflow: auto;
 }
 
 nav li{
-  display: inline-block;
-  width: 33,3%;
-  border-right-color: black;
+  float: left;
+  display: block;
+  width: 33%;
+  text-align: center;
+}
+
+nav li:nth-child(2){
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+nav a{
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* Star image float */

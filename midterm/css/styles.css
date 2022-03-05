@@ -12,12 +12,14 @@ body {
 header {
     background-image: url("../images/lone-starfish-wide.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50% 75%;
 }
 
 header h1 {
     color: white;
-    padding: 6rem;  
+    padding: 6rem;
+    margin: auto;
+    text-align: center;  
 }
 /* navigation menu display */
 nav ul{
@@ -35,4 +37,20 @@ img {
   width: 250px;
   padding: 0 20px 20px 20px;
   float:left;
+}
+
+/* adds text space between lines */
+.float p{
+  line-height: 1.6;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.facts ul{
+  line-height: 1;
+  font-size: small;
 }

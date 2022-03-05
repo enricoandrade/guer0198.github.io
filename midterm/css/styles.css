@@ -6,21 +6,24 @@ html{
 body {
     background-color: #aad4cf;
     margin-left: 100px;
+    margin-right: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-header {
-    background-image: url("../images/lone-starfish-wide.jpg");
-    background-size: cover;
-    background-position: 50% 75%;
+header img{
+  width: 800px;
+  padding-left: 0%;
 }
-
 header h1 {
     color: white;
-    padding: 6rem;
-    margin: auto;
-    text-align: center;  
+    position: absolute;
+    top: 150px;
+    left: 380px;
 }
+
+nav, section, div{
+  background-color: #d7f5f1;
+}
+
 /* navigation menu display */
 nav ul{
   padding-left: 0%;
@@ -33,7 +36,7 @@ nav li{
 }
 
 /* Star image float */
-img {
+section img {
   width: 250px;
   padding: 0 20px 20px 20px;
   float:left;
@@ -53,4 +56,17 @@ img {
 .facts ul{
   line-height: 1;
   font-size: small;
+}
+
+.form {
+  border-style: solid;
+}
+
+.form p{
+  padding-left: 10px;
+}
+
+footer{
+  padding-right: 20px;
+  text-align: right;
 }

@@ -1,3 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #369;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #fff;
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    background-color: #222222;
+    list-style-type: none;
+    color: #c78b07;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 760px;
+}
+
+a:link, a:visited {
+    color: #c78b07;
+    text-decoration: none;
 }

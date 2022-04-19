@@ -30,42 +30,48 @@ p {
 
 .wrapper {
     padding-left: 0px;
-    width: 90%;
-    width: 760px;
+    width: 100%;
+    margin: auto;
 }
 
 ul {
     background-color: #222222;
     list-style-type: none;
-    height: 494px;
     color: #c78b07;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
+    padding: 0 0 20px 0;
+}
+
+li {
+    text-align: center;
+}
+
+li a {
+    padding: 20px;
+    display: block;
 }
 
 li:nth-child(1) {
-    margin-right: auto;
+    text-align: left;
     background-color: #c78b07;
     width: 100%;
 }
 
 li:nth-child(2) a:nth-child(1){
     background-color: #c78b07;
-    padding: 35px 357px;
     color: #0a2a46;
 }
 
 input {
   width: 630px;
   height: 100%;
+  border: 1px solid black;
+  padding: 10px 10px;
 }
 
 .fa-magnifying-glass {
     border: 2px solid #c78b07;
     padding: 10px 10px;
+    font-size: 22px;
 }
 
 a:link, a:visited {
@@ -79,7 +85,7 @@ main img{
 
 .welcome {
     position: absolute;
-    top: 560px;
+    top: 530px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 15px;
@@ -104,7 +110,7 @@ main img{
 .ourservices {
     background-color: #fff;
     margin-top: 10px;
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .container {
@@ -133,19 +139,13 @@ main img{
 
 article{
     background-color: #fff;
-}
-
-article img{
-    width: 760px;
-    height: 320px;
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    color: white;
 }
 
 .vision{
     padding: 15px;
-    color: white;
-    position: absolute;
-    top: 5700px;
-    width: 760px;
 }
 
 .button3 {

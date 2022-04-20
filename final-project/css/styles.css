@@ -28,7 +28,7 @@ p {
     margin-bottom: 30px;
   }
 
-nav, main, article {
+nav, main, article, footer, .contact, .ourteam {
     width: 760px;
     margin: auto;
 }
@@ -109,12 +109,10 @@ main img{
 .ourservices {
     background-color: #fff;
     margin-top: 10px;
-    /* padding: 15px; */
 }
 
 .container, .indent{
     background-color: #ffe6ac;
-    /* padding: 15px; */
 }
 
 .container img{
@@ -126,6 +124,7 @@ main img{
 }
 
 .indent {
+    width: 760px;
     padding: 15px;
 }
 
@@ -232,7 +231,7 @@ td {
 }
 
 @media screen and (min-width: 760px){
-    nav, main, article {
+    nav, main, article, footer {
         width: 1200px;
         margin: auto;
     }
@@ -288,6 +287,7 @@ td {
     }
 
     .indent{
+        width: 100%;
         margin: 5px;
     }
 

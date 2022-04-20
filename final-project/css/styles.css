@@ -113,7 +113,7 @@ main img{
     /* padding: 15px; */
 }
 
-.container, .flexmagic {
+.container, .indent{
     background-color: #ffe6ac;
     /* padding: 15px; */
 }
@@ -122,19 +122,18 @@ main img{
     width: 100%;
 }
 
-.flexmagic img{
+.gridmagic img{
     width: 730px;
 }
 
 .indent {
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 .button2 {
     background-color: #222222;
     width: 40%;
-    padding: 32px 32px;
+    padding: 32px;
     color: white;
     text-align: center;
     font-size: 20px;
@@ -274,18 +273,52 @@ td {
     }
 
     .indent{
-        width: 350px;
+        margin: 5px;
     }
 
     .indent img{
-        width: auto;
+        width: 100%;
     }
 
-    .flexmagic {
+    .button2 {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .gridmagic {
+        width: 1100px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-areas:
+            "box1 box1 box1 box2 box2 box2"
+            "box3 box3 box4 box4 box5 box5"
+    }
+
+    .gridmagic .indent:nth-child(1) {
+        grid-area: box1;
+    }
+    .gridmagic .indent:nth-child(2) {
+        grid-area: box2;
+    }
+    .gridmagic .indent:nth-child(3) {
+        grid-area: box3;
+    }
+    .gridmagic .indent:nth-child(4) {
+        grid-area: box4;
+    }
+    .gridmagic .indent:nth-child(5) {
+        grid-area: box5;
+    }
+
+    /* .flexmagic {
         width: 1100px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-    }
+    } */
 }

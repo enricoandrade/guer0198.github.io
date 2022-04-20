@@ -19,7 +19,7 @@ h2 {
 }
 h3 {
     font-size: 2rem;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     margin-bottom: 15px;
 }
 p {
@@ -27,12 +27,6 @@ p {
     font-size: 14px;
     margin-bottom: 30px;
   }
-
-.wrapper {
-    padding-left: 0px;
-    width: 100%;
-    margin: auto;
-}
 
 ul {
     background-color: #222222;
@@ -162,13 +156,24 @@ article{
 }
 
 .ourteam img{
-    width: 745px;
+    width: 760px;
+}
+
+.flexmagic {
+    padding-bottom: 15px;
 }
 
 .box {
     background-color: #ffe6ac;
 }
 
+.box:nth-child(2), .box:nth-child(4) {
+    padding: 15px;
+}
+
+.stack {
+    padding: 15px;
+}
 hr {
     border: 1px solid #c78b07;
     margin-bottom: 15px;
@@ -222,7 +227,7 @@ td {
 }
 
 @media screen and (min-width: 760px){
-    .wrapper {
+    nav, main, article {
         width: 1200px;
         margin: auto;
     }
@@ -253,11 +258,17 @@ td {
         height: 550px;
     }
 
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+
     .about img{
         float: left;
         padding: 15px;
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
     }
 
     .clearfix:after {
